@@ -184,7 +184,6 @@ public class ApplicationMineazon extends Application
 				}
 				
 				mc.getRenderItem().renderItemIntoGUI(e, x + 4, y + 3);
-				gui.drawRect(x, y, x + width, y + height, Color.GRAY.getRGB());
 				gui.drawString(mc.fontRendererObj, e.getDisplayName(), x + 30, y + 8, Color.WHITE.getRGB());
 			}
 		});
